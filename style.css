@@ -1,0 +1,238 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white; 
+}
+
+body {
+    font-size: 100%;
+    width: 100%;
+    max-width: 1349px;
+}
+
+a:focus, a:hover {
+    font-weight: bold;
+}
+
+header {
+    border-bottom: 3px solid blue;
+    background-color: gray;
+    margin: 0 10%;
+}
+header h2 {
+    text-align: center;
+    font-size: 350%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+header img {
+    float: left;
+    height: 120px;
+    width: 180px;
+}
+
+#nav_menu ul{
+    list-style-type: none;
+}
+#nav_menu ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 120%;
+    color: yellow;
+    padding: 1em;
+}
+.second_last {
+    padding-top: 3em;
+}
+.second_last_about {
+    padding-top: 161%;
+}
+.second_last_event {
+    padding-top: 333%;
+}
+.second_last_park {
+    padding-top: 143%;
+}
+.second_last_camping {
+    padding-top: 320%;
+}
+
+main {
+    height: 100%;
+    width: 90%;
+}
+
+#event_page {
+    display: grid;
+    grid-template: repeat(2, 100%) / repeat(2, 65%);
+    grid-gap: 50px;
+    float: none;
+}
+.padding {
+    padding-bottom: 5em;
+}
+
+section {
+    float: right;
+    width: 67.5%;
+    background-color: rgb(216, 216, 216);
+    padding-left: 1em;
+}
+section h1 {
+    border-bottom: 3px solid blue;
+    text-align: center;
+    font-size: 250%;
+    padding: .5em 0;
+}
+section h2 {
+    border-bottom: 3px solid blue;
+    padding: 1em 0;
+}
+section p {
+    padding-top: 3em;
+    padding-right: 2em;
+}
+section img {
+    float: right;
+
+    padding: 3em 0 1.5em 1em;
+    margin-right: 1em;
+}
+section ol {
+    padding: 0 2em 3em 2em;
+}
+blockquote {
+    font-style: italic;
+}
+
+.p2 {
+    padding-top: .5em;
+}
+
+#member_list {
+    list-style-type: none;
+}
+#member_list li {
+    padding: 1em 2em 1em 0;
+}
+
+.contact_list {
+    list-style-type: none;
+}
+.contact_list li {
+    padding-top: 2em;
+}
+
+#parks {
+    list-style-type: none;
+    float: right;
+}
+.park_imgs {
+    height: 200px;
+    width: 34.2%;
+    float: right;
+}
+
+.members {
+    float: left;
+    height: 80px;
+    width: 80px;
+    padding: 0 1em 0 0;
+    margin: 0;
+}
+
+#knight {
+    width: 35.4%;
+    height: 330px;
+}
+.tent_banner {
+    padding: 2.5em 0 1.5em 0;
+    width: 98%;
+}
+
+.saddle {
+    height: 200px;
+    width: 36.6%;
+}
+.event_imgs {
+    height: 250px;
+    width: 83.6%;
+    float: top;
+}
+.contact_img {
+    height: 350px;
+    width: 98%;
+}
+
+#camping_img_1 {
+    height: 200px;
+    width: 280px;
+}
+#camping_img_2 {
+    height: 200px;
+    width: 280px;
+    float: left;
+}
+#tips_p {
+    padding: 2em 0 1em 1em;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    text-align: center;
+    background-image: linear-gradient(
+        90deg, rgb(25, 25, 255) 0%, rgb(142, 142, 255) 30%, rgb(25, 25, 255) 50%, rgb(142, 142, 255) 80%, rgb(25, 25, 255) 100%);
+}
+aside h3 {
+    font-size: 170%;
+    padding-bottom: 1em;
+}
+aside img {
+    height: 120px;
+    width: 57.5%;
+}
+
+footer {
+    background-color: blue;
+    color: yellow;
+    clear: both;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin: 0 10%;
+}
+footer p{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1280px) {
+    header h2 {
+        font-size: 300%;
+    }
+    section h1 {
+        font-size: 200%;
+    }
+}
+
+ @media only screen and (max-width:1020px) {
+    section h1 {
+        font-size: 150%;
+    }
+    aside h3 {
+        font-size: 120%;
+    }
+ }
+
+@media only screen and (max-width: 935px) {
+    header h2 {
+        font-size: 250%;
+    }
+    aside img {
+        display: none;
+    }
+}
